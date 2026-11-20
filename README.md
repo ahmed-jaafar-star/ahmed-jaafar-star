@@ -5,6 +5,7 @@ Avionics engineer working in AML compliance at a fintech company in Iraq. Most o
 ## Automation
 
 - [n8n-automations](https://github.com/ahmed-jaafar-star/n8n-automations): KYC screening alerts on Google Chat, and a RAG assistant that answers from the internal policy guide
+- [kyc-screening-tool](https://github.com/ahmed-jaafar-star/kyc-screening-tool): Chrome extension that searches a customer's name (and country, if given) across the last 3 months of transfers and lists every match, as sender or receiver
 - [wu-evidence-archiver](https://github.com/ahmed-jaafar-star/wu-evidence-archiver): one-click evidence archiving to Google Drive, an action log, and form auto-fill between two systems
 - [wu-blocklist-checker](https://github.com/ahmed-jaafar-star/wu-blocklist-checker): checks a whole list of MSISDNs in one run and exports a single CSV
 - [wu-reinitiate-logger](https://github.com/ahmed-jaafar-star/wu-reinitiate-logger): records who re-initiated which case, and when, in a Google Sheet
@@ -14,9 +15,8 @@ Avionics engineer working in AML compliance at a fintech company in Iraq. Most o
 
 These run on company data, so they aren't public.
 
-- KYC Screening Tool: Chrome extension that searches a customer's name (and country, if given) across the last 3 months of transfers and lists every match, as sender or receiver
 - AML Investigation Cockpit: an extension that runs an AML alert investigation across several systems with one button
-- Transfers dashboard: January to October 2026 transfer data in Looker Studio, with calculated fields and charts
+- Transfers dashboard: I collected the January to October 2026 transfers into one dataset and built a Looker Studio dashboard on it, with calculated fields and charts
 
 ## Engineering
 
