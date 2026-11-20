@@ -8,8 +8,15 @@ Avionics engineer working in AML compliance at a fintech company in Iraq. Most o
 - [wu-evidence-archiver](https://github.com/ahmed-jaafar-star/wu-evidence-archiver): one-click evidence archiving to Google Drive, an action log, and form auto-fill between two systems
 - [wu-blocklist-checker](https://github.com/ahmed-jaafar-star/wu-blocklist-checker): checks a whole list of MSISDNs in one run and exports a single CSV
 - [wu-reinitiate-logger](https://github.com/ahmed-jaafar-star/wu-reinitiate-logger): records who re-initiated which case, and when, in a Google Sheet
-- [vba-investigation-report](https://github.com/ahmed-jaafar-star/vba-investigation-report): turns a reviewed Excel workbook into a Word investigation report
-- [aml-investigation-cockpit](https://github.com/ahmed-jaafar-star/aml-investigation-cockpit): case study of an extension that runs an alert investigation across several systems with one button
+- [aml-analytics-vba](https://github.com/ahmed-jaafar-star/aml-analytics-vba): Excel VBA toolkit that turns a transaction export into per-country risk analysis (funnel accounts, agent concentration, name-sound matching) and drafts the Word investigation report
+
+## Internal tools
+
+These run on company data, so they aren't public.
+
+- KYC Screening Tool: Chrome extension that searches a customer's name (and country, if given) across the last 3 months of transfers and lists every match, as sender or receiver
+- AML Investigation Cockpit: an extension that runs an AML alert investigation across several systems with one button
+- Transfers dashboard: January to October 2026 transfer data in Looker Studio, with calculated fields and charts
 
 ## Engineering
 
@@ -20,4 +27,4 @@ Avionics engineer working in AML compliance at a fintech company in Iraq. Most o
 
 - B.Sc. Avionics Engineering, Al-Furat Al-Awsat Technical University, 2024
 - AML Compliance Officer since January 2026
-- Tools: n8n, JavaScript, Google Apps Script, Excel VBA, KNX / ETS, Betaflight
+- Tools: n8n, JavaScript, Google Apps Script, Excel VBA, Looker Studio, KNX / ETS, Betaflight
